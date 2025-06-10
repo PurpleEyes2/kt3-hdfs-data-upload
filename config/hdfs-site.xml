@@ -1,0 +1,6 @@
+<configuration>
+  <property>
+    <name>dfs.datanode.hostname</name>
+    <value>localhost</value>
+  </property>
+</configuration>
