@@ -1,9 +1,5 @@
 # Отчет по проекту: Пайплайн обработки данных для HDFS
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
-![Hadoop](https://img.shields.io/badge/Hadoop-3.2.1-yellow?logo=apachehadoop)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 ## Оглавление
 1. [Описание проекта](#описание-проекта)
 2. [Структура проекта](#структура-проекта)
