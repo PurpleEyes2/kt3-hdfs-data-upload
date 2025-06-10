@@ -44,7 +44,7 @@
 ### 1. Подготовка окружения
 ```
 git clone https://github.com/PurpleEyes2/kt3-hdfs-data-upload.git
-cd kt3-hdfs-data-upload.git
+cd kt3-hdfs-data-upload
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
