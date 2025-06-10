@@ -18,16 +18,21 @@
 ## Структура проекта
 ```
 .
-├── data/ # Данные (исключены из git)
-│ ├── raw/ # Исходные данные
-│ └── processed/ # Обработанные данные
-├── scripts/
-│ ├── normalize.ipynb # Ноутбук обработки
-│ └── upload_to_hdfs.py # Скрипт загрузки
-├── docs/ # Документация
-├── docker-compose.yml # Конфигурация Hadoop
-├── requirements.txt # Зависимости Python
-└── README.md # Этот файл
+├── config/
+│   └── hdfs-site.xml             # Конфигурация HDFS
+├── data/                         
+│   ├── hdfs/                     # Загруженные в HDFS (опционально)
+│   ├── processed/                # Обработанные данные
+│   └── raw/                      # Исходные данные
+├── scripts/                      
+│   ├── normalize.ipynb           # Jupyter ноутбук для обработки
+│   └── upload_to_hdfs.py         # Скрипт загрузки в HDFS
+├── .gitignore                    
+├── README.md                     # Документация проекта
+├── docker-compose.yml            # Конфигурация Hadoop-кластера
+├── hadoop.env                    # Переменные среды для Hadoop
+└── requirements.txt              # Python-зависимости
+
 ```
 
 ## Требования
