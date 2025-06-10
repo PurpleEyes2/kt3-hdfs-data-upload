@@ -28,7 +28,7 @@
 │   ├── normalize.ipynb           # Jupyter ноутбук для обработки
 │   └── upload_to_hdfs.py         # Скрипт загрузки в HDFS
 ├── .gitignore                    
-├── README.md                     # Документация проекта
+├── README.md                     # Документация работы
 ├── docker-compose.yml            # Конфигурация Hadoop-кластера
 ├── hadoop.env                    # Переменные среды для Hadoop
 └── requirements.txt              # Python-зависимости
