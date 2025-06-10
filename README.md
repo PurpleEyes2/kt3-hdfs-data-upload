@@ -61,7 +61,7 @@ pip install -r requirements.txt
 1. Запуск Hadoop-кластера
 ```docker-compose up -d```
 2. Обработка данных
-```jupyter notebook scripts/normalize.ipynb```
+```jupyter nbconvert --to notebook --execute scripts/normalize.ipynb```
 ##### Основные этапы обработки:
 ```
 # Нормализация названий колонок
